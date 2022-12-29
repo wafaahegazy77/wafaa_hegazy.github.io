@@ -1,0 +1,91 @@
+/*================================ Satrt large screens =========================*/
+@media (min-width: 1440px)
+{
+   .content-sec .container-fluid{
+       padding: 0px 70px;
+   }
+}
+@media (min-width:1201px ) and (max-width: 1440px)
+{
+   
+}
+@media (min-width:1025px) and (max-width:1200px)
+{
+
+}
+/*============================== Start medium screen of tablet =========================*/
+@media (min-width: 993px) and (max-width: 1024px)
+{
+    .content-sec .side-nav .profile-info h5 {
+        font-size: 1.5rem;
+    }
+    .content-sec .side-nav .profile-info .job-title {
+        font-size: 12px;
+    }
+    .content-sec .side-nav .profile-info .personal-info .item span, 
+    .content-sec .side-nav .profile-info .personal-info .item a {
+        font-size: 12px;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+
+}
+@media(max-width:1200px)
+{
+    .content-sec .content-inner .menu-container .inner-menu {
+        width: 90%;
+    }
+}
+/*============================== Start small screen of mobile =========================*/
+@media(max-width:768px)
+{
+    .content-sec .content-inner .menu-container .inner-menu .nav .nav_item {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .content-sec .content-inner .menu-container .inner-menu {
+        display: block;
+        height: 12rem;
+    }
+    .content-sec .content-inner .menu-container .inner-menu .nav {
+        border-radius: 2rem 0 2rem 2rem;
+    }
+    .content-sec .content-inner .menu-container .inner-menu.nav-active .nav{
+        padding: 10px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+
+}
+@media(max-width:576px)
+{
+    .content-sec .content-inner .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
+        display: none;
+    }
+    .content-sec .content-inner .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
+        padding: 1.2em;
+        margin-left: 0px;
+    }
+    .content-sec .content-inner .timeline-centered::before{
+        display: none;
+    }
+}
+@media(min-width: 426px) and (max-width: 576px)
+{
+
+}
+@media (min-width: 376px) and (max-width: 425px)
+{
+
+}
+@media (min-width: 321px) and (max-width: 375px)
+{
+   
+}
+@media (max-width: 320px)
+{
+
+}
